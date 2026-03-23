@@ -60,7 +60,7 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} className='mt-20'>
         <p className={`${styles.sectionSubText} `}>Meus Projetos</p>
         <h2 className={`${styles.sectionHeadText}`}>Projetos.</h2>
       </motion.div>
@@ -70,11 +70,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Os projetos a seguir mostram minhas habilidades e experiência através
-          Cada projeto é brevemente descrito com
-          links para repositórios de código e demonstrações ao vivo nele. Isso reflete meu
-          capacidade de resolver problemas complexos, trabalhar com diferentes tecnologias,
-          e gerenciar projetos de forma eficaz.
+          Os projetos a seguir demonstram minhas habilidades e experiência prática. Cada projeto é brevemente descrito com links para repositórios de código e demonstrações ao vivo. Isso reflete minha capacidade de resolver problemas complexos, trabalhar com diferentes tecnologias e gerenciar projetos de forma eficaz.
         </motion.p>
       </div>
 

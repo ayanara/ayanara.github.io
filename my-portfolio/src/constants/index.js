@@ -22,6 +22,8 @@ import {
   threejs,
   trybe,
   gama,
+  nodejs,
+  redux,
 } from "../assets";
 
 export const navLinks = [
@@ -92,6 +94,14 @@ const technologies = [
   {
     name: "Three JS",
     icon: threejs,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "Redux",
+    icon: redux,
   },
   {
     name: "git",
